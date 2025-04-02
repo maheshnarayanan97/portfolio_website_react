@@ -19,7 +19,15 @@ const Navbar = () => {
                 >
                     <FaLinkedin />
                 </a>
-                <FaGithub />
+                <a
+                    href="https://github.com/maheshnarayanan97?tab=repositories"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ fontSize: "24px" }}
+                >
+                    <FaGithub />
+                </a>
+
                 <a
                     href="https://www.instagram.com/_mahesh_narayanan/"
                     target="_blank"
