@@ -36,7 +36,14 @@ const Navbar = () => {
                 >
                     <FaInstagram />
                 </a>
-                <FaTwitterSquare />
+                <a
+                    href="https://x.com/mahesh_n_97"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ fontSize: "24px" }}
+                >
+                    <FaTwitterSquare />
+                </a>
             </div>
         </nav>
     )

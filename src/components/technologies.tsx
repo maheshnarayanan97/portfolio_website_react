@@ -1,8 +1,7 @@
 
 import { RiReactjsLine } from 'react-icons/ri'
 import { TbBrandNextjs } from 'react-icons/tb'
-import { SiMongodb } from 'react-icons/si'
-import { DiRedis } from 'react-icons/di'
+import { SiMongodb, SiMui } from 'react-icons/si'
 import { FaNodeJs } from 'react-icons/fa'
 import { BiLogoPostgresql } from 'react-icons/bi'
 import { motion, Variants } from 'framer-motion'
@@ -57,8 +56,8 @@ const Technologies = () => {
                     variants={iconVariants(2)}
                     initial='initial'
                     animate='animate'
-                    className="rounded-2xl border-4 border-neutral-800">
-                    <DiRedis className='text-7xl text-red-700' />
+                    className="rounded-2xl border-4 border-neutral-800 p-1">
+                    <SiMui className='text-7xl text-sky-700' />
                 </motion.div>
                 <motion.div
                     variants={iconVariants(6)}
