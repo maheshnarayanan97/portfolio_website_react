@@ -1,9 +1,8 @@
 
 import { RiReactjsLine } from 'react-icons/ri'
-import { TbBrandNextjs } from 'react-icons/tb'
-import { SiMongodb, SiMui } from 'react-icons/si'
+import { TbBrandJavascript } from 'react-icons/tb'
+import { SiMongodb, SiMui, SiTypescript } from 'react-icons/si'
 import { FaNodeJs } from 'react-icons/fa'
-import { BiLogoPostgresql } from 'react-icons/bi'
 import { motion, Variants } from 'framer-motion'
 
 const iconVariants = (duration: number): Variants => ({
@@ -44,7 +43,7 @@ const Technologies = () => {
                     variants={iconVariants(3)}
                     initial='initial'
                     animate='animate' className="rounded-2xl border-4 border-neutral-800">
-                    <TbBrandNextjs className='text-7xl' />
+                    <TbBrandJavascript className='text-7xl text-amber-300' />
                 </motion.div>
                 <motion.div
                     variants={iconVariants(5)}
@@ -68,8 +67,8 @@ const Technologies = () => {
                 <motion.div
                     variants={iconVariants(4)}
                     initial='initial'
-                    animate='animate' className="rounded-2xl border-4 border-neutral-800">
-                    <BiLogoPostgresql className='text-7xl text-sky-700' />
+                    animate='animate' className="rounded-2xl border-4 border-neutral-800 p-1">
+                    <SiTypescript className='text-7xl text-sky-700' />
                 </motion.div>
             </motion.div>
         </div >
